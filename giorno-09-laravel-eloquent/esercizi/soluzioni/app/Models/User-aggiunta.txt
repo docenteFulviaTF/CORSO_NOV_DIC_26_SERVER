@@ -1,0 +1,8 @@
+Esercizio 9.4 - In app/Models/User.php aggiungere, dentro la classe:
+
+    use Illuminate\Database\Eloquent\Relations\HasMany;   // in cima, con gli altri use
+
+    public function loans(): HasMany
+    {
+        return $this->hasMany(Loan::class);
+    }
