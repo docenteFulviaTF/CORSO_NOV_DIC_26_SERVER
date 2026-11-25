@@ -2,9 +2,10 @@
 vendor/
 tempCode*.php
 
-#giorno-07-sessioni-sicurezza/esercizi/soluzioni
+giorno-10*/esercizi/soluzioni
 
 esercizioInsieme.md
 
 .gitignore
 
+PASSI.md
